@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCSUqTREFSvec7pIC9OeGUwMSHHA1pxDSs',
+    authDomain: 'ionicgeolocation-70521.firebaseapp.com',
+    databaseURL: 'https://ionicgeolocation-70521.firebaseio.com',
+    projectId: 'ionicgeolocation-70521',
+    storageBucket: 'ionicgeolocation-70521.appspot.com',
+    messagingSenderId: 'G-W62P5BG5HD'
+  }
 };
 
 /*
