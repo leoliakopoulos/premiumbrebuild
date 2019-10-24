@@ -53,7 +53,7 @@ export class HomePage {
     if (location.speed === undefined) {
       location.speed = 0;
     }
-    const timestamp = new Date(location.time);
+   // const timestamp = new Date(location.time);
     const record = {} as any;
     record.latitude = location.latitude;
     record.longitude = location.longitude;
